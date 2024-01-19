@@ -41,7 +41,7 @@ getData()
 
 
 async function search(input) {
-    const data = await fetch(`http://api.weatherapi.com/v1/search.json?key=34d39dfc5a944615900193628240701&q=${input}`)
+    const data = await fetch(`https://api.weatherapi.com/v1/search.json?key=34d39dfc5a944615900193628240701&q=${input}`)
     const result = await data.json()
     getData(input)
 }
