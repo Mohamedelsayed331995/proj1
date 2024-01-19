@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/New.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark pt-3 pb-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img class="img-fluid" src="media/logo@2x.png" alt="">
+                <div class="navText pt-4 ps-2">
+                    <h6>Weather</h6>
+                    <p>tagline goes here</p>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 w-75 text-center d-flex justify-content-around">
+                    <li class="nav-item">
+                        <a class="nav-link active ms-2" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ms-2" href="#aboutme">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ms-2" href="#clients">Live Cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ms-2" href="#team">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ms-2" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="home pt-4">
+        <div class="container">
+            <form class="position-relative">
+                <input type="text" class=" input w-100 rounded-5 text-white border-0" placeholder="search here">
+                <button type="button" id="searchButton" class="btn pe-5 position-absolute ps-5 pt-3 pb-3 rounded-5 text-white ">Find</button>
+            </form>
+            <div class="row mt-5 gx-0">
+                <div class="col-md-4 col-sm-12">
+                    <div class="innermain ">
+                        <div class="d-flex justify-content-between bg-black m-0 ps-3 pe-3 pt-3 pb-3 w-100">
+                            <h6 class="weekDays"></h6>
+                            <h6 class="date"></h6>
+                        </div>
+                        <h5 class="areaName pt-2 ps-3 pb-2"></h5>
+                        <div class="d-flex justify-content-between">
+                            <h1 class="temp p-2"></h1>
+                            <img class="icon" src="" alt="icon">
+                        </div>
+                        <h6 class="text pt-2 ps-4"></h6>
+                        <div class="windValues d-flex pt-5 ps-3 justify-content-between">
+                            <div class="d-flex"> <img src="" alt="umb" class="umbrella">
+                                <h4 class="umbValue"></h4>
+                            </div>
+                            <div class="d-flex"> <img src="" alt="wind" class="wind">
+                                <h4 class="windValue"></h4>
+                            </div>
+                            <div class="d-flex"> <img src="" alt="dir" class="direction">
+                                <h4 class="dirValue"></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="innerdiff  text-center">
+                        <h6 class="weekDays1 bg-black p-2"></h6>
+                        <img class="icon1 p-2" src="" alt="icon">
+                        <h1 class="tempMax p-2"></h1>
+                        <h5 class="tempMin p-2"></h5>
+                        <h6 class="text1 pb-2 pt-4"></h6>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="inner text-center">
+                        <h6 class="weekDays2 bg-black p-2"></h6>
+                        <img class="icon2 p-2" src="" alt="icon">
+                        <h1 class="tempMax2 p-2"></h1>
+                        <h5 class="tempMin2 p-2"></h5>
+                        <h6 class="text2 pb-2 pt-4"></h6>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container position-relative">
+            <form class="position-relative pb-5 pt-5">
+                <input type="text" class="w-75 rounded-5 text-white border-0" placeholder="Enter your email to subscribe....">
+               <button class="position-absolute ps-5 pe-5 pt-3 pb-3 rounded-5 border-0 text-white">Subscribe</button>
+            </form>
+
+            <div class="social-links position-absolute text-center">
+                <a href="#"><i class="fa-brands fa-2x fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-2x fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-2x fa-google-plus"></i></a>
+                <a href="#"><i class="fa-brands fa-2x fa-pinterest"></i></a>
+            </div>
+            <h6 class="ps-3 pb-4 text-secondary">Copyright 2014 Company name. Designed by Themezy. All rights reserved</h6>
+        </div>
+
+
+    </footer>
+
+    <script src="JS/index.js"></script>
+</body>
+
+</html>

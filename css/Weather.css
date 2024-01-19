@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(30, 32, 43);
+    font-family: 'Roboto', sans-serif;
+}
+
+button{
+    background-color: rgb(80, 132, 229);
+    font-size: 14px;
+    font-weight: 400
+}
+
+.container img{
+    width: 40%;
+    padding-left: 2%;
+}
+
+.container a  {
+    font-size: 16px;
+    font-weight: 700
+}
+
+.container p{
+    font-weight:300 ;
+    font-size: 10px;
+}
+
+.navText{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navbar-nav a:hover{
+    border:2px solid rgb(80, 132, 229);
+    padding:2px 0px  ;
+    border-radius: 30px;
+}
+
+.navbar-nav .active{
+    border:2px solid rgb(80, 132, 229);
+    padding:3px 1px  ;
+    border-radius: 30px;
+}
+
+.navbar-nav a{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.home{
+    background-image:url(../media/banner.png) ;
+    width: 100%;
+    max-height: 100%;
+    background-repeat: no-repeat;
+}
+
+.home input{
+    height: 62px;
+    background-color: rgb(43, 45, 54);
+}
+
+.container #searchButton{
+    right: 0.4%;
+    top:3%;
+    background-color: rgb(80, 132, 229);
+}
+
+.container ::placeholder{
+    padding-left: 2%;
+}
+  
+.row{
+    color:#bfc1c8;
+}
+
+.temp{
+    font-size: 90px;
+    font-weight: 700;
+    color: white;
+}
+
+.tempMin, .tempMin2{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.tempMax, .tempMax2{
+    font-size:24px;
+    font-weight: 700;
+    color: white;
+}
+
+.weekDays, .weekDays1, .weekDays2{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.icon{
+    width: 35%;
+}
+
+.icon1, .icon2{
+    width: 41%;
+}
+
+.text, .text1, .text2{
+    color:rgb(80, 132, 229);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.windValues h4{
+    font-size: small;
+}
+
+.windValues img{
+    width: 40%;
+    height: 70%;
+}
+
+.windValues{
+    width: 90%;
+}
+
+.innermain{
+box-shadow: 0px 0px 100px rgb(22, 22, 22);
+padding: 4.4%;
+background-color: rgb(43, 45, 54);
+border-bottom-left-radius: 5px;
+border-top-left-radius: 5px;
+}
+
+.innerdiff{
+box-shadow: 0px 0px 100px rgb(22, 22, 22);
+padding: 10%;
+background-color: rgb(30, 32, 43);
+}
+
+.inner{
+box-shadow: 0px 0px 100px rgb(22, 22, 22);
+padding: 10%;
+background-color: rgb(43, 45, 54);
+border-bottom-right-radius: 5px;
+border-top-right-radius: 5px;
+}
+
+footer form input{
+    height: 60px;
+    background-color: rgb(43, 45, 54);
+}
+
+footer form button{
+    right: 25.3%;
+    bottom:32%;
+    background-color: rgb(80, 132, 229);
+}
+
+footer{
+    background-color: rgb(30, 32, 43);
+    margin-top: 50px;
+    max-height: 100%;
+}
+
+footer p{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.social-links{
+    bottom: 50%;
+    right:0 ;
+    width: 25%
+}
+
+.fa-brands:hover{
+    color: white;
+}
+
+.social-links i{
+    color: rgb(80, 132, 229);
+}
